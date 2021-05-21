@@ -1,0 +1,38 @@
+{
+  "name": "afragen/git-updater-bitbucket-translations",
+  "description": "Translation language packs for Git Updater - Bitbucket plugin",
+  "type": "library",
+  "keywords": [
+    "git-updater-bitbucket",
+    "language packs",
+    "translations"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Fragen",
+      "email": "andy@thefragens.com",
+      "homepage": "https://thefragens.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/afragen/git-updater-bitbucket-translations"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/afragen/git-updater-bitbucket-translations/issues",
+    "source": "https://github.com/afragen/git-updater-bitbucket-translations"
+  },
+  "prefer-stable": true,
+  "require": {
+    "afragen/language-pack-maker": "dev-master"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "php ./vendor/autoload.php"
+    ]
+  }
+}
